@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Stadiums</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+<header>
+  <nav class="header__menu">
+    <ul>
+      <li><input type="text" id="searchInput" placeholder="Пошук за назвою" oninput="searchStadiumByName()"></li>
+      <li><h1>Опції сортування:</h1></li>
+      <li><button onclick="sortByAlphabet()">Сортувати за алфавітом</button></li>
+      <li><button onclick="sortByviewers()">Сортувати за к-стю глядачів</button></li>
+      <li><button onclick="sortBylux()">Сортувати за люксами</button></li>
+      <li><button onclick="showCreateForm()">Створити стадіон</button></li>
+    </ul>
+  </nav>
+</header>
+<div id="stadiums__content">
+</div>
+<p id="total-lux">Загальна потужність освітлення: <span id="totallux"></span> люксів</p>
+
+<div id="stadiumModal" class="modal_closed">
+  <div class="modal-content_open">
+    <span class="close" onclick="hideStadiumForm()">&times;</span>
+  <h2 id="formTitle">Створити стадіон</h2>
+  <form id="stadiumForm" onsubmit="saveStadium(event)">
+    <label for="stadiumName">Назва:</label>
+    <input type="text" id="stadiumName" name="name" required minlength="3">
+
+    <label for="stadiumViewers">К-сть глядачів (чол):</label>
+    <input type="number" id="stadiumViewers" name="viewers" required min="0.1" step="0.1">
+
+    <label for="stadiumLux">Потужність освітлення(люкс):</label>
+    <input type="number" id="stadiumLux" name="lux" required min="0.01" step="0.01">
+
+    <label for="stadiumImage">Зображення(URL):</label>
+    <input type="url"  id="stadiumImage" name="image" required>
+
+    <button type="submit">Зберегти стадіон</button>
+    <button type="button" onclick="hideStadiumForm()">Відхилити</button>
+  </form>
+</div>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
