@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "title": "Toyota Camry",
+        "text": "No info",
+        "imgpath": "components/image/product1.png",
+        "price": 30000,
+        "type": "sedan"
+    },
+    {
+        "id": 2,
+        "title": "Hyundai Elantra",
+        "text": "No info",
+        "imgpath": "components/image/product2.png",
+        "price": 22000,
+        "type": "sedan"
+    },
+    {
+        "id": 3,
+        "title": "Mercedes-Benz E200",
+        "text": "No info",
+        "imgpath": "components/image/product3.png",
+        "price": 60000,
+        "type": "sedan"
+    },
+    {
+        "id": 4,
+        "title": "Toyota RAV4",
+        "text": "No info",
+        "imgpath": "components/image/product4.png",
+        "price": 35000,
+        "type": "suv"
+    },
+    {
+        "id": 5,
+        "title": "Mazda CX-5",
+        "text": "No info",
+        "imgpath": "components/image/product5.png",
+        "price": 20000,
+        "type": "suv"
+    },
+    {
+        "id": 6,
+        "title": "Land Rover Defender",
+        "text": "No info",
+        "imgpath": "components/image/product6.png",
+        "price": 70000,
+        "type": "suv"
+    },
+    {
+        "id": 7,
+        "title": "Porsche 911",
+        "text": "No info",
+        "imgpath": "components/image/product7.png",
+        "price": 110000,
+        "type": "sportcar"
+    },
+    {
+        "id": 8,
+        "title": "Ford Mustang",
+        "text": "No info",
+        "imgpath": "components/image/product8.png",
+        "price": 45000,
+        "type": "sportcar"
+    },
+    {
+        "id": 9,
+        "title": "Chevrolet Corvette",
+        "text": "No info",
+        "imgpath": "components/image/product9.png",
+        "price": 65000,
+        "type": "sportcar"
+    }
+]
