@@ -1,0 +1,111 @@
+[
+    {
+        "id": 1,
+        "title": "Toyota Camry",
+        "text": "No info",
+        "imgpath": "product1",
+        "price": 30000,
+        "category": "sedan",
+        "stock": [
+            { "color": "white", "amount": 2 },
+            { "color": "red", "amount": 3 }
+          ]
+    },
+    {
+        "id": 2,
+        "title": "Hyundai Elantra",
+        "text": "No info",
+        "imgpath": "product2",
+        "price": 22000,
+        "category": "sedan",
+        "stock": [
+            { "color": "green", "amount": 2 },
+            { "color": "black", "amount": 7 }
+          ]
+    },
+    {
+        "id": 3,
+        "title": "Mercedes-Benz E200",
+        "text": "No info",
+        "imgpath": "product3",
+        "price": 60000,
+        "category": "sedan",
+        "stock": [
+            { "color": "yellow", "amount": 10 },
+            { "color": "gray", "amount": 4 }
+          ]
+    },
+    {
+        "id": 4,
+        "title": "Toyota RAV4",
+        "text": "No info",
+        "imgpath": "product4",
+        "price": 35000,
+        "category": "suv",
+        "stock": [
+            { "color": "blue", "amount": 2 },
+            { "color": "white", "amount": 4 }
+          ]
+    },
+    {
+        "id": 5,
+        "title": "Mazda CX-5",
+        "text": "No info",
+        "imgpath": "product5",
+        "price": 20000,
+        "category": "suv",
+        "stock": [
+            { "color": "gray", "amount": 3 },
+            { "color": "black", "amount": 4 }
+          ]
+    },
+    {
+        "id": 6,
+        "title": "Land Rover Defender",
+        "text": "No info",
+        "imgpath": "product6",
+        "price": 70000,
+        "category": "suv",
+        "stock": [
+            { "color": "brown", "amount": 4 },
+            { "color": "green", "amount": 5 }
+          ]
+    },
+    {
+        "id": 7,
+        "title": "Porsche 911",
+        "text": "No info",
+        "imgpath": "product7",
+        "price": 110000,
+        "category": "sportcar",
+        "stock": [
+            { "color": "white", "amount": 1 },
+            { "color": "orange", "amount": 2 }
+          ]
+    },
+    {
+        "id": 8,
+        "title": "Ford Mustang",
+        "text": "No info",
+        "imgpath": "product8",
+        "price": 45000,
+        "category": "sportcar",
+        "stock": [
+            { "color": "yellow", "amount": 3 },
+            { "color": "red", "amount": 1 }
+          ]
+    },
+    {
+        "id": 9,
+        "title": "Chevrolet Corvette",
+        "text": "No info",
+        "imgpath": "product9",
+        "price": 65000,
+        "category": "sportcar",
+        "stock": [
+            { "color": "gray", "amount": 2 },
+            { "color": "black", "amount": 3 }
+          ]
+    }
+]
+
